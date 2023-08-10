@@ -51,3 +51,4 @@ if number3 == "/":
         FuckYou()
     print("\n Division")
     print("\n", n1 / n2, "\n")
+print("NIGGERRR")
