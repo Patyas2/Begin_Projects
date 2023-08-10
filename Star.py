@@ -3,9 +3,7 @@ import sys
 def fuck():
     print("nuh uh")
     exit()
-
-
-
+    
 if (len(sys.argv)) == 1:
      fuck()
      
@@ -22,9 +20,7 @@ if starNumber > 300:
      exit()
 if starNumber == 0:
     exit()
-
-
-
+    
 def starMaker():
     
     #variables for loopin
@@ -39,9 +35,6 @@ def starMaker():
     firstPartSpaceNumber = starNumber * 2 
     settingEmptySpace = ' ' * firstPartSpaceNumber
     flatStar = "*" * starNumber * 2 + '*'
-    
-
-
 
     for star in range(10):
         if star == 0:
@@ -69,7 +62,6 @@ def starMaker():
                          print(" " * gapFlatStar, end='',file=f)
                      if star == 2:
                         print(flatStar,file=f)
-
         if star == 3:
             counter = 1
             inverseCounter = 3
@@ -123,9 +115,5 @@ def starMaker():
                     print(firstStarSpace * ' ' + ' ', end='',file=f)
                     print("*",file=f)
 
-
-
-
-    #print(starMaker(), file=StarFile)
 with open("Star.txt", 'w') as f:
          starMaker()
