@@ -1,7 +1,7 @@
 import sys
 
 def fuck():
-    print("nuh uh NIGGGGEEEEEERRRR")
+    print("nuh uh")
     exit()
 
 
@@ -18,7 +18,7 @@ if sys.argv[1] == '²':
 starNumber = int(sys.argv[1])
 
 if starNumber > 300:
-     print("Star too big, nigger brain cant count that high")
+     print("Star too big, brain cant count that high")
      exit()
 if starNumber == 0:
     exit()
